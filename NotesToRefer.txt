@@ -1,0 +1,33 @@
+Notes To Refer:
+//*[starts-with(@id, "")]
+//*[contains(@class, "")]
+
+JQuery:
+
+
+//div[@id="costAssessedResultsDiv"]/form/table
+//table[contains(@class, "costsAssessedPopUp")]
+//table[contains(@class, "costsAssessedPopUp")]
+
+//table[starts-with(@class, "costsAssessedPopUp")]//*[@id = "smcMuniTrfcAssdText_c3a50d4b-1294-47b2-9f6f-3ada7efc908a"]//div[@align="right"]/i[contains(@class, "fa-pencil")]
+[id^=smcMuniTrfcAssdText_] > div[align=right]
+
+// .then(($text) => {
+        //   expect(
+        //     $text.trim() === style.trim(),
+        //     `Expected '${style}' but found '${$text}'`
+        //   ).to.be.true;
+        // });
+// .should('eq', style)
+      // .then(value=>cy.log(value))
+      // .should('eq', style);
+      // .contains(`${$defendant.caseId}`).should('be.visible')
+      // cy.get('@table').invoke('attr', 'style').should('eq', 'font-size: 11px; display: table;');
+      // cy.get('@table').invoke('prop', 'isContentEditable').should('eq', false)
+      // cy.get('@table').invoke('prop', 'textContent').should('contain', '23AK-CR21674')
+      // const className = $ele[0].getAttribute("class");
+      // const textContent = $ele[0].textContent
+      // const editable =$ele[0].isContentEditable
+      // cy.log(className)
+      // cy.log(textContent)
+      // cy.log(editable)
